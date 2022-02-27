@@ -2,5 +2,42 @@
 
 body{
     font-family: 'Roboto', sans-serif;
+}
+
+header{
+    background-color: #1F2937;
+    color: white;
+}
+
+.top{
     display: flex;
+}
+#logo {
+    height: 98px;
+    width: 98px;
+    margin-right: auto;
+    margin-left: 68px;
+    padding: 32px;
+}
+.links {
+    padding: 32px;
+    margin-right: 68px;
+}
+
+.bottom{
+    display: flex;
+    justify-items: space-between;
+
+}
+.left{
+    padding: 100px;
+}
+
+
+#esfinge {
+    height: 375px;
+    width: 250px;
+    margin-left: auto;
+    margin-right: 68px;
+    padding: 32px;
 }
