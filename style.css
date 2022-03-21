@@ -24,6 +24,7 @@ body{
     background-color: #1F2937;
     color: white;
     display: flex;
+    padding-top: 80px;
     justify-content: space-between;
 }
      
@@ -31,6 +32,7 @@ body{
 .left{
     display: flex;
     flex-direction: column;
+    margin-right: 25px;
     margin-left: 100px;
     margin-bottom: 70px;
     width: 500px;
@@ -69,6 +71,7 @@ body{
     display: flex;
     background-color: gray;
     margin-right: 100px;
+    margin-left: 25px;
     margin-bottom: 70px;
     width: 500px;
     justify-content: center;
