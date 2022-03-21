@@ -4,14 +4,37 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
-header{
+.top{
     background-color: #1F2937;
     color: white;
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    
+    justify-content: space-around;   
 }
+
+.bottom{
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+}
+     
+
+.left{
+    display: flex;
+    flex-direction: column;
+}
+
+.sign{
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+}
+
+.right{
+    display: flex;
+    background-color: gray;
+}
+
 
 ul{
     list-style-type: none;
@@ -22,8 +45,9 @@ ul{
 
 a{
     text-decoration: none;
-    color: rgb(207, 207, 207);
-    font-weight: bold;
+    color: #e5e7eb;
+    font-size: 18px;
     padding-right: 8px;
     padding-left: 8px;
 }
+
